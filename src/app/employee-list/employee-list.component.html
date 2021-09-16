@@ -1,0 +1,22 @@
+<div class="container bg-light text-primary">
+  <div class="jumbotron">
+    <table class="table table-dark table-hover">
+      <thead>
+        <tr>
+          <th>id</th>
+          <th>name</th>
+          <th>age </th>
+        </tr>
+      </thead>
+      <tbody>
+        <td class="text-warning">{{errormsg}}</td>
+        <tr *ngFor="let employee of emp">
+
+          <td>{{employee.id}}</td>
+          <td>{{employee.name}}</td>
+          <td>{{employee.age}}</td>
+        </tr>
+      </tbody>
+    </table>
+</div>
+</div>

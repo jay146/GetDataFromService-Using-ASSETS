@@ -1,0 +1,33 @@
+<div class="container jumbotron bg-dark">
+  <div class="row">
+              <div class="col-sm-3 text-primary">
+                <h1> <b>html</b></h1>
+                <button class="btn btn-primary" [disabled]="!allownewserver" (click)="onCreateServer()">add server</button>
+                <br/>
+                <div class="container jumbotron bg-light">
+                 <input type="text"  #ref placeholder="enter text">
+                 <p class="text-left text-dark">ref value is used in the input tag</p>
+                <br/>
+                <br/>
+                <button class="btn btn-danger text-dark" (click)="send(ref.value)">click for event binding</button>
+                <p>click is the event, method is send(ref.value)</p>
+                <br/>
+                <h2 *ngIf="true" class="text-warning">{{eb}}</h2>
+              </div>
+
+           <h2 class="text-warning text-center late"> {{servercreationstatus}}</h2>
+                <p [innerText]="allownewserver"></p>
+              </div>
+                    <div class="col-sm-6 image1">
+                      <div class="container">
+
+                        <img src="./assets/data/download2.png">
+                      </div>
+                      </div>
+                              <div class="col-sm-3 text-success">
+                                   <h1><b>typescript </b></h1>
+                                   <p>eb is the property used in method send()</p>
+                                   <p>eb is interpolated </p>
+                                </div>
+  </div>
+  </div>

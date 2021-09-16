@@ -1,0 +1,48 @@
+.html{
+  font-weight: bolder;
+}
+
+.typescript{
+  font-weight: bolder;
+}
+
+img
+ {
+color: blueviolet;
+font-weight: bolder;
+position: relative;
+animation:  firstmove infinite;
+animation-duration: 4s;
+width: 100px;
+height: 100px;
+}
+
+div[target] {
+  animation: jay146;
+  width: 100px;
+  height: 250px;
+  position: relative;
+  animation-duration: 5S;
+
+}
+
+.image1
+{
+width: 500px;
+height: 150px;
+text-align: right;
+}
+
+
+@keyframes firstmove
+{from  {right: 0px;}
+to {right: 300px;}
+from {background-color: blue;}
+  to {background-color: green;}
+}
+
+@keyframes jay146
+{
+ from {background-color: blue;}
+  to {background-color: green;}
+}

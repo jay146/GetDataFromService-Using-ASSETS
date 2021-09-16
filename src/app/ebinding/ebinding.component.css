@@ -1,0 +1,35 @@
+.html{
+  font-weight: bolder;
+}
+
+.typescript{
+  font-weight: bolder;
+}
+
+img
+ {
+color: blueviolet;
+font-weight: bolder;
+position: relative;
+animation:  mymove1 infinite;
+animation-duration: 4s;
+width: 100px;
+height: 100px;
+}
+
+
+
+.image1
+{
+width: 500px;
+height: 150px;
+text-align: left;
+}
+
+
+@keyframes mymove1
+{from  {left: 0px;}
+to {left: 300px;}
+from {background-color: blue;}
+  to {background-color: green;}
+}
